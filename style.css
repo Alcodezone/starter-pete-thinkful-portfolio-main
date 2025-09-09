@@ -1,0 +1,172 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+/* Headings */
+.main-container {
+ margin: auto;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  margin-right: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f77f00;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 5px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+/* About Section Layout */
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 2px;
+}
+
+.about-content img {
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+}
+
+.about-text h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.about-text {
+  max-width: 500px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-text a {
+  color: #d62828;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  color: #f77f00;
+}
+
+a[href="#contact"],
+a[href="#portfolio"],
+a[href="#about"] {
+  text-decoration: underline;
+  color: #d62828;
+}
+
+/* Portfolio Section Layout */
+.portfolio-container {
+  display: flex;
+  justify-content:center;
+  gap:5px;
+}
+
+.portfolio-item {
+  flex: 1 1 calc(33% - 10px);
+  padding: 5px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
